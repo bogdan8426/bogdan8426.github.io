@@ -12,8 +12,8 @@ body, html {
     background-size: cover;
     position: relative;
     color: white;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 25px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2rem;
     user-select: none;
 }
 
