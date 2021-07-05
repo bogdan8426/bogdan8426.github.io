@@ -14,7 +14,7 @@ body, html {
     position: relative;
     color: white;
     font-family: 'Press Start 2P', monospace;
-    font-size: 2vw;
+    font-size: 3.5vw;
     user-select: none;
 }
 
@@ -35,7 +35,7 @@ hr {
     margin: 0;
     padding: 3vw 0;
     color: white;
-    font: 2vw Inconsolata, monospace;
+    font: 3.5vw Inconsolata, monospace;
 &::after {
      content: "";
      position: absolute;
