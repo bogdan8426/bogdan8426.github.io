@@ -1,6 +1,6 @@
 ul {
     position:absolute;
-    z-index: 1000;
+    z-index: 0;
     top:90%;
     left:50%;
     transform: translate(-50%, -50%);
