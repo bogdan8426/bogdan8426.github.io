@@ -8,6 +8,8 @@ body, html {
     background-image: url("../assets/programming-bkg.jpg");
     z-index: 950;
     height: 100%;
+    width: 100%;
+    max-width:100%;
     background-position: center;
     background-size: cover;
     position: relative;
