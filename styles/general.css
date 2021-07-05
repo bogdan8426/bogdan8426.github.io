@@ -6,13 +6,15 @@ body, html {
 
 .bgimg {
     background-image: url("../assets/programming-bkg.jpg");
+    z-index: 950;
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
-    font-family: "Oswald", Oswald, monospace;
+    font-family: 'Press Start 2P', cursive;
     font-size: 25px;
+    user-select: none;
 }
 
 .middle {
