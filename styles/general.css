@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+
+}
+
+.bgimg {
+    background-image: url("../assets/programming-bkg.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Oswald", Oswald, monospace;
+    font-size: 25px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.code {
+    margin: 0;
+    padding: 2rem;
+    color: white;
+    font: 1.3rem Inconsolata, monospace;
+&::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background: repeating-linear-gradient(
+             0deg,
+             rgba(black, 0.15),
+             rgba(black, 0.15) 1px,
+             transparent 1px,
+             transparent 2px
+     );
+     pointer-events: none;
+ }
+}
+::selection {
+    background: #0080FF;
+    text-shadow: none;
+}
+pre {
+    margin: 0;
+}
